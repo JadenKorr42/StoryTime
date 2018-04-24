@@ -1,0 +1,22 @@
+Requirements:
+1) Gui 
+      - Home - Page Design
+      - Story List - Design
+      - Edit Screen - Design
+2) Mechanics
+      - Create a new Story
+      - Edit an existing story
+      - Display a list of all stories
+      
+3) Polish/ boredom
+      - User Accounts
+      - Editting safeguards
+      
+      
+      
+Project Design - Web Site
+- Main code (looks)  html, css, js
+- Mechanis html,  js
+- Accounts, etc.  php
+- Editting safeguards  js
+     
