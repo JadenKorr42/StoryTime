@@ -1,9 +1,11 @@
 <HTML>
     <head>
         <title>Create Story</title>
+        <meta charset="UTF-8">
         <h1>Create Story</h1>
         <hr />
         <script src="js/storage.js"></script>
+        <script src="js/array.js"></script>
     </head>
     
     <body>
@@ -12,13 +14,13 @@
         <fieldset>
         <legend>Story:</legend>
             <p>Please Enter the Title of the Story:<br/>
-            <input type=text name="title" size="50"/></p>
+            <input type=text name="title" id="story_title" size="50"/></p>
             <p>Please Name the Author of the Story:<br/>
-            <input type=text name="author" size="50"/></p>
+            <input type=text name="author" id="story_author" size="50"/></p>
             <p>Please Write the Story:<br/>
-             <textarea rows="15" cols="180"></textarea></p>
+             <textarea rows="15" cols="180" id="story_text"></textarea></p>
             <br/><br/>
-            <input type="submit" value="Save Story">
+            <input type="submit" value="Create Story">
         </fieldset>
         </form>
     </body>
