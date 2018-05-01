@@ -10,8 +10,13 @@ function form_submit() {
 }
 
 function new_entry(title, author, story){
-    var x = title_array.push(title);
-    var y = author_array.push(author);
+    title_array.push(title);
+    author_array.push(author);
+    
+    ////////////////////////
+    //Code to make the text file
+    ////////////////////////
+    
 }
 
 
@@ -26,13 +31,13 @@ function generate_table() {
   var tblBody = document.createElement("tbody");
  
   // creating all cells
-  for (var i = 0; i < 3; i++) {
+  for (var i = 0; i < title_array.length; i++) {
     // creates a table row
     var row = document.createElement("tr");
  
     
       
-    for (var j = 0; j < 3; j++) {
+    for (var j = 0; j < 2; j++) {
     // Create a <td> element and a text node, make the text
     // node the contents of the <td>, and put the <td> at
     // the end of the table row
@@ -40,10 +45,8 @@ function generate_table() {
               
     if (j == 0)  
         var cellText = document.createTextNode(title_array[i]);
-    else if (j == 1)
-        var cellText = document.createTextNode(author_array[i]);
     else
-        var cellText = document.createTextNode("hi");
+        var cellText = document.createTextNode(author_array[i]);
         
     cell.appendChild(cellText);
     row.appendChild(cell);
