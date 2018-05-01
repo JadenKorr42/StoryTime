@@ -1,26 +1,14 @@
 function form_submit() {
-    var title = document.getElementById("story_title");
-    var author = document.getElementById("story_author");
-    var story = document.getElementById("story_text");
+    var title = document.getElementById("story_title").value;
+    var author = document.getElementById("story_author").value;
     
-    new_entry(title, author, story);
-    
-    window.location.href = "table-storage-test.html";
-    
-}
-
-function new_entry(title, author, story){
     title_array.push(title);
     author_array.push(author);
-    
-    ////////////////////////
-    //Code to make the text file
-    ////////////////////////
+    console.log(title);
+    console.log(author);
+    window.location.href = "table-storage-test?title=" + encodeURIComponent(title);
     
 }
-
-
-
 
 function generate_table() {
   // get the reference for the body
