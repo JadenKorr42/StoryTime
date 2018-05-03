@@ -3,7 +3,7 @@ var title_array = ["Kittens", "Puppies", "Cats", "Dogs"];
 var author_array = ["Jacob Stevenson", "Steve Jocobson", "Charels Dixon", "Dixon Charles"];
 
 
-function look_up(search_title){
+function look_up(story_index){
     return title == search_title;
 }
 

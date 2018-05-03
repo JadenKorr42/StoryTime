@@ -11,10 +11,15 @@
     </head>
     
     <body>
+        
+        <table id="table" border='1'>
+        <tr></tr>
+        </table>
+        
         <h2>JavaScript do ... while</h2>
 
         <input type=text id=look_up_title>
-        <input type=button value="Lookup" onClick="javascript:var x = look_up(document.getElementById.look_up_title)">
+        <input type=button value="Lookup" onClick="javascript: look_up(document.getElementById('look_up_title').value);">
         
         <p id="demo"></p>
         <p id="demo1"></p>
