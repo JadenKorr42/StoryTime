@@ -1,4 +1,10 @@
 Current Goals:
+5/8
+   -write title and author to CSV file (arrays are mean >:[ )
+
+   -open and read values from CSV file to populate table
+   -allow for stories to be selected from the list
+
 4/26 
    -html home page
    -js to create file
